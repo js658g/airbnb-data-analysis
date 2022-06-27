@@ -9,7 +9,6 @@
 6. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
-
 ## Installation <a id="installation"></a>
 The code was tested with:
 1. Python 3.8
@@ -59,7 +58,7 @@ For our analysis we have used 5 files:
 
 **NOTE:** We did more business & data understanding by using their [data exploration system](http://insideairbnb.com/amsterdam/).
 
-Image that shows the flow of the data.
+The mage below shows how the data is flowing between notebooks:
 <p align="center"><img src="images/files_structure.png" /></p>
 
 ## Results <a id="results"></a>
