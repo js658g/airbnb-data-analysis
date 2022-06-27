@@ -1,0 +1,9 @@
+notebook
+pandas
+seaborn
+matplotlib
+numpy
+scikit-learn
+lightgbm
+catboost
+shap
