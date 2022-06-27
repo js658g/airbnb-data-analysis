@@ -10,7 +10,7 @@
 
 
 
-## Installation <a name="installation"></a>
+## Installation <a id="installation"></a>
 The code was tested with:
 1. Python 3.8
 2. Ubuntu 20.4
@@ -26,11 +26,47 @@ Install Python dependencies:
 pip install -r requirements.txt
 ```
 
-## Project Motivation <a name="motivation"></a>
-## Used Data <a name="data"></a>
-## File Descriptions <a name="files"></a>
-## Results <a name="results"></a>
-## Licensing, Authors, and Acknowledgements <a name="licensing"/>
+## Project Motivation <a id="motivation"></a>
+
+## Used Data <a id="data"></a>
+We have used the public data given by [Airbnb](http://insideairbnb.com/get-the-data/). More concrete we choose to 
+perform our analysis on the biggest The Netherlands cities like:
+* Amsterdam
+* Rotterdam
+* The Hague
+
+**NOTE**: The code is actually generic and could be run on any other cities from this dataset. 
+But the scope of our analysis was to compare how Airbnb is performing in The Netherlands.
+
+### Data Folder Structure
+```
+data/
+      - Amsterdam/listings.csv
+      - Rotterdam/listings.csv
+      - The Hague/listings.csv
+```
+
+**NOTE**: As long as you follow this folder structure you can add any other city.
+
+## File Descriptions <a id="files"></a>
+For our analysis we have used 5 files:
+* `wrangling.ipynb`: ETL on different cities. Data cleaning. Business & data understanding.
+* `preprocessing`: The data is prepared to be fed into different models.
+* `statistics.ipynb`: The place were the data analysis takes place.
+* `lightgbm.ipynb`: Trains a LightGBM model that predicts the price. Plots the feature importance.
+* `catboost.ipynb`: Trains a CatBoost model that predicts the price. Plots the feature importance.
+
+**NOTE:** We did more business & data understanding by using their [data exploration system](http://insideairbnb.com/amsterdam/).
+
+<div style="text-align:center"><img src="images/files_structure.png" /></div>
+
+## Results <a id="results"></a>
+
+## Licensing, Authors, and Acknowledgements <a id="licensing"></a>
+Must be really grateful for Airbnb that they exposed their data to the public!
+You can find the Licensing for the data [here](http://insideairbnb.com/data-policies).
+
+<br/> Otherwise, we are more than happy to use this code as you like!
 
 
 
