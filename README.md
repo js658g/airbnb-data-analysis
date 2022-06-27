@@ -59,7 +59,7 @@ For our analysis we have used 5 files:
 
 **NOTE:** We did more business & data understanding by using their [data exploration system](http://insideairbnb.com/amsterdam/).
 
-<div style="text-align:center"><img src="images/files_structure.png" /></div>
+<p align="center"><img src="images/files_structure.png" /></p>
 
 ## Results <a id="results"></a>
 
