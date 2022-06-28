@@ -55,18 +55,9 @@ data/
 **NOTE**: As long as you follow this folder structure you can add any other city.
 
 ## File Descriptions <a id="files"></a>
-For our analysis we have used 5 files:
-* `wrangling.ipynb`: ETL on different cities. Data cleaning. Business & data understanding.
-* `preprocessing`: The data is prepared to be fed into different models. Data preparation.
-* `statistics.ipynb`: The place were the data analysis takes place.
-* `lightgbm.ipynb`: Trains a LightGBM model that predicts the price. Evaluation. Plots feature importance.
-* `catboost.ipynb`: Trains a CatBoost model that predicts the price. Evaluation. Plots feature importance.
+Our data analysis is performed into the `netherlands.ipynb` file which contains all the CRISP-DM steps.
 
 **NOTE:** We did more business & data understanding by using their [data exploration system](http://insideairbnb.com/amsterdam/).
-**NOTE:** For the results we picked the best model between `LightGBM` and `CatBoost`. 
-
-The mage below shows how the data is flowing between notebooks:
-<p align="center"><img src="images/files_structure.png" /></p>
 
 ## Results <a id="results"></a>
 The results of our data analysis is presented in detail in a Medium article called
