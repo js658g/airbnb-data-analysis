@@ -26,6 +26,12 @@ pip install -r requirements.txt
 ```
 
 ## Project Motivation <a id="motivation"></a>
+In our data analysis we have used the dataset described in the [Used Data][#data] section to compare different 
+Airbnb properties across The Netherlands. We wanted to answer to the following questions:
+1. Which city has the highest price tag? What about their neighborhoods?
+2. What city and neighborhoods are in most demand?
+3. Are reviews for more expensive houses better?
+4. What are the factors that affect a property's price?
 
 ## Used Data <a id="data"></a>
 We have used the public data given by [Airbnb](http://insideairbnb.com/get-the-data/). More concrete we chose to 
@@ -57,11 +63,14 @@ For our analysis we have used 5 files:
 * `catboost.ipynb`: Trains a CatBoost model that predicts the price. Evaluation. Plots feature importance.
 
 **NOTE:** We did more business & data understanding by using their [data exploration system](http://insideairbnb.com/amsterdam/).
+**NOTE:** For the results we picked the best model between `LightGBM` and `CatBoost`. 
 
 The mage below shows how the data is flowing between notebooks:
 <p align="center"><img src="images/files_structure.png" /></p>
 
 ## Results <a id="results"></a>
+The results of our data analysis is presented in detail in a Medium article called
+[This Is What You Should Know When Travelling to the Netherlands With Airbnb](https://medium.com/@p.e.iusztin/this-is-what-you-should-know-when-travelling-to-the-netherlands-with-airbnb-aaa19cef4615)
 
 ## Licensing, Authors, and Acknowledgements <a id="licensing"></a>
 Must be really grateful for Airbnb that they exposed their data to the public!
