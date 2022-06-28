@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 ## Project Motivation <a id="motivation"></a>
-In our data analysis we have used the dataset described in the [Used Data][#data] section to compare different 
+In our data analysis we have used the dataset described in the [Used Data](#data) section to compare different 
 Airbnb properties across The Netherlands. We wanted to answer to the following questions:
 1. Which city has the highest price tag? What about their neighborhoods?
 2. What city and neighborhoods are in most demand?
