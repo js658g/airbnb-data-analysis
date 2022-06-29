@@ -55,7 +55,7 @@ data/
 **NOTE**: As long as you follow this folder structure you can add any other city.
 
 ## File Descriptions <a id="files"></a>
-Our data analysis is performed into the `netherlands.ipynb` file which contains all the CRISP-DM steps.
+Our data analysis is performed into the `netherlands.ipynb` file, which follows the CRISP-DM methodology.
 
 **NOTE:** We did more business & data understanding by using their [data exploration system](http://insideairbnb.com/amsterdam/).
 
