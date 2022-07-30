@@ -1,4 +1,5 @@
 # AirBnb Data Analysis
+To directly see the analysis results, check this [Medium article](https://medium.com/@p.e.iusztin/this-is-what-you-should-know-when-travelling-to-the-netherlands-with-airbnb-aaa19cef4615).
 
 ### Table of Contents
 1. [Installation](#installation)
